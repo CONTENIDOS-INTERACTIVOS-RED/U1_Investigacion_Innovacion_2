@@ -15,25 +15,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Definición y características de la investigación científica',
+        titulo: 'Ciencia, tecnología e innovación, en Colombia',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Propósitos de la investigación científica',
+            titulo:
+              'Marco legal y políticas públicas de CTeI la investigación científica',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'El sujeto y el objeto en la investigación',
+            titulo: 'Educación y formación en CTeI',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Ética en la investigación científica',
+            titulo: 'Retos y oportunidades de CTeI en Colombia',
             hash: 't_1_3',
           },
         ],
@@ -42,24 +43,17 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Tipos de investigación',
+        titulo: '',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Según sus datos: cualitativa, cuantitativa',
+            titulo: '',
             hash: 't_2_1',
           },
         ],
       },
-      // {
-      //   nombreRuta: 'tema3',
-      //   icono: 'far fa-file-alt',
-      //   numero: '3',
-      //   titulo: 'Objetivos, indicadores y resultados esperados',
-      //   desarrolloContenidos: true,
-      // },
       {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',

@@ -40,15 +40,21 @@
 
 .bg-color
   &-1
-    background-color: #D8F5F5 
+    background-color: #CFF7E4 
   &-2
-    background-color: #FEE3D8
+    background-color: #F5E9FE
   &-3
-    background-color: #EAF2FB 
+    background-color: #E7EFF8 
   &-4
     background-color: #E2E9F3
   &-5
-    background-color: #FEF8E7
+    background-color: $color-primario
+  &-6
+    background-color: $color-acento-contenido 
+  &-7
+    background-color: $color-secundario
+  &-8
+    background-color: #D6F5FA
 
   &-sintesis
     background-color: #F9F9F9
@@ -57,7 +63,11 @@
 
 .border-top.color-primario
   border-top: 5px solid $color-primario !important
-
+.br-15
+  border-radius: 15px !important
+.mb-cus
+  @media screen and (max-width: $bp-max-sm)
+    margin-bottom: 1.5rem !important
 // Full Width Background
 .bg-full-width
   background-size: cover
@@ -81,6 +91,12 @@
   &-3
     background-image: url("../assets/bg/3.svg") !important
     background-position: center
+  &-4
+    background-image: url("../assets/bg/4.svg") !important
+    background-position: center
+  &-5
+    background-image: url("../assets/bg/5.svg") !important
+    background-position: top
 // Variables
 $custom-card-border-radius: 0px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
@@ -212,3 +228,6 @@ i.fas.fa-quote-left
 /*COMPONENTS STYLES*/
 .iniciar-btn-container .icon
   background-color: #0B7744 !important
+.lista-ol--cuadro__vineta.color-acento-contenido
+  background-color: $color-acento-contenido !important
+  color: #fff !important
