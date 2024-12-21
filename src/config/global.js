@@ -1,23 +1,7 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
-    descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
-      },
-    ],
     numeroUnidad: '1',
-    tituloUnidad: 'Titulo de la unidad',
+    tituloUnidad: 'Conocimiento científico en Colombia',
   },
   menuPrincipal: {
     menu: [
@@ -31,44 +15,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Definición y características de la investigación científica',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Título de segundo nivel',
+            titulo: 'Propósitos de la investigación científica',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Acordeón',
+            titulo: 'El sujeto y el objeto en la investigación',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Slider',
+            titulo: 'Ética en la investigación científica',
             hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
           },
         ],
       },
@@ -76,62 +42,24 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Tipos de investigación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Según sus datos: cualitativa, cuantitativa',
             hash: 't_2_1',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Audios',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Listado',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
-          },
         ],
       },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Unidad',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Carrusel',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Tablas',
-            hash: 't_3_2',
-          },
-        ],
-      },
+      // {
+      //   nombreRuta: 'tema3',
+      //   icono: 'far fa-file-alt',
+      //   numero: '3',
+      //   titulo: 'Objetivos, indicadores y resultados esperados',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
@@ -170,109 +98,184 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Acevedo-Jaramillo, M., González-Arango, Ó. & Zamudio-Cárdenas, L. (2022). El Sistema Nacional de Ciencia, Tecnología e Innovación en Colombia: Una perspectiva evolutiva. Revista Colombiana de Ciencias Sociales, 13(1), pp. 145-168.',
+      link: '',
+    },
+    {
+      referencia:
+        'Banco Mundial. (2023). Indicadores de Ciencia y Tecnología: Colombia.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://datos.bancomundial.org/indicator/GB.XPD.RSDV.GD.ZS?locations=CO',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Congreso de Colombia. (2009). Ley 1286 de 2009: Por la cual se modifica la Ley 29 de 1990, se transforma a Colciencias en Departamento Administrativo y se fortalece el Sistema Nacional de Ciencia, Tecnología e Innovación en Colombia. Diario Oficial.',
+      link: 'https://minciencias.gov.co/normatividad/ley-1286-2009',
+    },
+    {
+      referencia:
+        'Departamento Nacional de Planeación [DNP]. (2022). CONPES 4069: Nueva política de ciencia, tecnología e innovación 2022-2031. Ministerio de Ciencia, Tecnología e Innovación.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://minciencias.gov.co/conpes-4069-nueva-politica-ciencia-tecnologia-e-innovacion-2022-2031',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Departamento Administrativo de la Función Pública. (2021). Decreto 1666 de 2021: Por el cual se modifica el Sistema Nacional de Ciencia, Tecnología e Innovación (SNCTI).',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=173951',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Germán García, E. Campo González, D. & Solarte, M. C. (2022). Conocimiento científico y educación ambiental para la formación de profesores. Programa Editorial Universidad del Valle.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/269634',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Instituto Colombiano de Normas Técnicas y Certificación [ICONTEC]. (2023). Norma Técnica Colombiana NTC 1486: Documentación, presentación de tesis, trabajos de grado y otros trabajos de investigación.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://tienda.icontec.org/gp-ntc-documentacion-presentacion-de-trabajos-academicos-y-referencias-bibliograficas-ntc1486-2022.html',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'López Cantos, F. J. (2018). Cultura visual y conocimiento científico: comunicación transmedia de la ciencia en la era Big Data. Editorial UOC.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/116307',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Maz-Machado, A., Jiménez-Fanjul, N. N, & Villarraga Rico, M. E. (2022). La producción científica colombiana en SciELO: un análisis bibliométrico. Revista Interamericana de Bibliotecología, 39(2).',
+      link: 'https://doi.org/10.17533/udea.rib.v39n2a03',
+    },
+    {
+      referencia:
+        'Observatorio Colombiano de Ciencia y Tecnología [OCyT]. (2023). Indicadores de Ciencia, Tecnología e Innovación Colombia 2023.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://ocyt.org.co/wp-content/uploads/2024/04/INFORME-DE-GESTION-2023.pdf',
+    },
+    {
+      referencia:
+        'Zamora Bonilla, J. P. (2022). La lonja del saber: introducción a la economía del conocimiento científico. UNED - Universidad Nacional de Educación a Distancia.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/217783',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Bioeconomía',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Sistema económico que utiliza los recursos biológicos renovables, para producir alimentos, energía, productos y servicios, de manera sostenible.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Ciencia ciudadana',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Práctica científica que involucra la participación activa del público general, en actividades de investigación científica.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'CTeI',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Sigla que hace referencia a Ciencia, Tecnología e Innovación.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'CvLAC',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Currículum Vitae de Latinoamérica y el Caribe, plataforma para el registro y visualización de hojas de vida de investigadores.',
     },
     {
-      termino: 'Moda',
+      termino: 'DOI',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Identificador de Objeto Digital (<i>Digital Object Identifier</i>), código único que se utiliza para identificar de manera permanente, documentos digitales.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Ecosistema de innovación',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Red de organizaciones, instituciones y personas, que interactúan para facilitar la generación y aplicación de innovaciones.',
     },
     {
-      termino: 'DIseño',
+      termino: 'GrupLAC',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Plataforma para el registro y visualización de información de grupos de investigación en Latinoamérica y el Caribe.',
     },
     {
-      termino: 'Tipología',
+      termino: 'I+D',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Sigla que significa Investigación y Desarrollo, actividades sistemáticas que incrementan el volumen de conocimientos.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'I+D+i',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Investigación, Desarrollo e innovación, concepto que añade la aplicación práctica de los conocimientos.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'InstituLAC',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Sistema de información para el registro y visualización de instituciones del sistema CTI.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'IoT',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Internet de las cosas (iot), red de objetos físicos conectados por sensores, <i>software</i> y otras tecnologías.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'NTC 1486:2022',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Norma Técnica Colombiana que establece los requisitos para la presentación de trabajos académicos.',
+    },
+    {
+      termino: 'ORCID',
+      significado:
+        'Identificador único para investigadores académicos (<i>Open Researcher and Contributor ID</i>).',
+    },
+    {
+      termino: 'Publindex',
+      significado:
+        'Sistema Nacional de Indexación de Revistas Científicas Colombianas.',
+    },
+    {
+      termino: 'RedCol',
+      significado:
+        'Red Colombiana de Información Científica, infraestructura que integra repositorios y sistemas de información científica.',
+    },
+    {
+      termino: 'RENATA',
+      significado:
+        'Red Nacional Académica de Tecnología Avanzada, infraestructura tecnológica que conecta instituciones académicas.',
+    },
+    {
+      termino: 'Repositorio institucional',
+      significado:
+        'Plataforma digital que almacena, preserva y difunde la producción académica de una institución.',
+    },
+    {
+      termino: 'SGR',
+      significado:
+        'Sistema General de Regalías, mecanismo de distribución de los ingresos, provenientes de la explotación de recursos naturales.',
+    },
+    {
+      termino: 'SNCTI',
+      significado: 'Sistema Nacional de Ciencia, Tecnología e Innovación.',
+    },
+    {
+      termino: '<i>Spin-off</i>',
+      significado:
+        'Empresa derivada que surge a partir de una organización existente, generalmente una universidad o centro de investigación.',
+    },
+    {
+      termino: '<i>Startup</i>',
+      significado:
+        'Empresa emergente que busca arrancar, emprender o montar un nuevo negocio, basado en innovación.',
+    },
+    {
+      termino: 'STEM',
+      significado:
+        'Sigla en inglés que representa Ciencia, Tecnología, Ingeniería y Matemáticas (<i>Science, Technology, Engineering, Mathematics</i>).',
+    },
+    {
+      termino: 'Vigilancia tecnológica',
+      significado:
+        'Proceso organizado de observación y análisis del entorno científico y tecnológico, para la toma de decisiones.',
+    },
+    {
+      termino: '<i>Web of Science</i>',
+      significado:
+        'Base de datos de referencias bibliográficas y citas de publicaciones periódicas que recopila información sobre investigación multidisciplinaria.',
     },
   ],
   complementario: [
@@ -298,104 +301,4 @@ export default {
       link: 'https://www.google.com/',
     },
   ],
-  creditos: [
-    {
-      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
-      autores: [
-        {
-          nombre: 'Maria Camila Garcia Santamaria',
-          cargo: 'Líder del equipo',
-          centro: 'Dirección General',
-        },
-      ],
-    },
-    {
-      titulo: 'CONTENIDO INSTRUCCIONAL',
-      autores: [
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor metodológico y pedagógico',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-      ],
-    },
-    {
-      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
-      autores: [
-        {
-          nombre: 'Francisco José Lizcano Reyes',
-          cargo: 'Responsable del equipo',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Leyson Fabian Castaño Perez',
-          cargo: 'Soporte organizacional',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
-        },
-        {
-          nombre: ['Nombre 1', 'Nombre 2'],
-          cargo: 'Diseño web',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Desarrollo Front-End',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Validación de diseño y contenido',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-      ],
-    },
-    {
-      titulo: 'GESTORES DE REPOSITORIO',
-      autores: [
-        {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
-        },
-      ],
-    },
-  ],
-  creditosAdicionales: {
-    imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
-    creativeCommons:
-      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
-  },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }
