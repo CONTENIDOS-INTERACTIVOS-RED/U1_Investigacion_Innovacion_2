@@ -49,8 +49,20 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: '',
+            titulo: ' Sistemas de información en CTeI',
             hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Modelos para la divulgación científica y tecnológica',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Red Colombiana de Información Científica (RedCol)',
+            hash: 't_2_3',
           },
         ],
       },
