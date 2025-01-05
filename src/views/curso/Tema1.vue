@@ -357,7 +357,7 @@
           img(src="@/assets/curso/t1/32.png")
 
 
-    .bg-full-width.bg-color-2.mb-0(data-aos="flip-up")
+    .bg-full-width.bg-color-2.mb-5(data-aos="flip-up")
       .px-5.py-4
         .row.align-items-center
           .col-lg-1.d-none.d-lg-block
@@ -365,6 +365,52 @@
           .col-lg
             p.mb-0 Colombia enfrenta desafíos estructurales en su sistema de CTeI, pero también cuenta con oportunidades significativas que, si se aprovechan adecuadamente, pueden posicionar al país como un líder en innovación y sostenibilidad en la región. La integración de la ciencia ciudadana, el fortalecimiento de la equidad de género, la reducción de brechas regionales y el desarrollo de áreas estratégicas como la biodiversidad y las energías renovables, son pasos esenciales para consolidar un ecosistema de CTeI inclusivo, competitivo y orientado al futuro.
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://lareferencia.info/legacy/nodo-colombia.html' target='_blank' rel='noopener noreferrer') La Referencia. (s.f.). Nodo Colombia. Sistema Nacional de Acceso Abierto al Conocimiento -SNAAC-
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://minciencias.gov.co/formacion-de-alto-nivel/apoyo-nacionales-exterior' target='_blank' rel='noopener noreferrer') Ministerio de Ciencia, Tecnología e Innovación. (s.f.). Apoyo a formación de alto nivel nacional y en el exterior.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.colombiaaprende.edu.co/contenidos/coleccion/stemColombia' target='_blank' rel='noopener noreferrer') Ministerio de Educación Nacional. (s.f.). STEM Colombia. Colombia Aprende.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.mincit.gov.co/prensa/noticias/industria/kpmg-innpulsa-y-aliados-presentaron-el-informe-col' target='_blank' rel='noopener noreferrer') Ministerio de Comercio, Industria y Turismo. (s.f.). KPMG, Innpulsa y aliados presentaron el informe Colombia Tech 2023.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://plataformasigp.minciencias.gov.co:7003/FormularioProyectos/' target='_blank' rel='noopener noreferrer') Plataforma SIGP
+
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/rllMQlROSws' target='_blank' rel='noopener noreferrer') Ministerio TIC Colombia. (2021). Conoce a Robert Parada Emprendedor, CEO Coco Tecnología
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/nhF__vb00aU?si=HgkkvH7PgALr01xm' target='_blank' rel='noopener noreferrer') Portal Territorial. (2023). Sistema General de Regalías Explicado
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/GvZxd5HWhdA' target='_blank' rel='noopener noreferrer') Minciencias Canal Oficial. (2024). MinCiencias oficializa la convocatoria del Programa Orquídeas
+            
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 </template>
 
