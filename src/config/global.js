@@ -21,8 +21,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo:
-              'Marco legal y políticas públicas de CTeI la investigación científica',
+            titulo: 'Marco legal y políticas públicas de CTeI',
             hash: 't_1_1',
           },
           {
@@ -43,7 +42,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '',
+        titulo: 'Instrumentos de divulgación científica y tecnológica',
         desarrolloContenidos: true,
         subMenu: [
           {

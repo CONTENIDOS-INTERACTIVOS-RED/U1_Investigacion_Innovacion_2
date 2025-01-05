@@ -60,9 +60,7 @@
               .tarjeta.bg-color-white.p-3(x="2.8%" y="20%" numero="+")
                 p.fw-bold.mb-3 InstituLAC
                 p.mb-0 Administra información de más de 500 instituciones activas en CTeI, incluyendo universidades, centros de investigación y empresas innovadoras.
-              .tarjeta.bg-color-white.p-3(x="2.8%" y="20%" numero="+")
-                p.fw-bold.mb-3 
-                p.mb-0
+              
               .tarjeta.bg-color-white.p-3(x="66.9%" y="8.3%" numero="+")
                 p.fw-bold.mb-3 GrupLAC
                 p.mb-0 Permite registrar y analizar la producción científica de más de 5,000 grupos de investigación, activos en Colombia.

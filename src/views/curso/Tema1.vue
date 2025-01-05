@@ -17,7 +17,7 @@
         p.mb-3 Incluye componentes relacionados con la educación, la investigación, el desarrollo e innovación (I+D+I), el emprendimiento, así como desafíos y oportunidades por afrontar. De acuerdo con el Observatorio Colombiano de Ciencia y Tecnología (2021), el sistema ha evidenciado un crecimiento significativo en la última década, reflejado en el aumento de la producción científica y la formación de investigadores. Sin embargo, todavía enfrenta retos importantes en términos de inversión y coordinación, entre los actores involucrados.
 
     #t_1_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.1] Marco legal y políticas públicas de CTeI la investigación científica
+      h2 #[span 1.1] Marco legal y políticas públicas de CTeI
     .bg-color-2.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
         .col-lg
@@ -328,7 +328,7 @@
           .col-lg-4.col-7.mb-lg-0.mb-3.d-none.d-lg-block: img(src='@/assets/curso/t1/29.png', alt='')
           .col-lg-7
             h4 Avances
-            p.mb-0 AvancDe acuerdo con el Observatorio Colombiano de Ciencia y Tecnología (2023), la participación femenina en grupos de investigación ha crecido un 35 % en los últimos cinco años.es
+            p.mb-0 De acuerdo con el Observatorio Colombiano de Ciencia y Tecnología (2023), la participación femenina en grupos de investigación ha crecido un 35 % en los últimos cinco años.
 
       .py-4.py-md-5(titulo="Barreras y soluciones" :icono="require('@/assets/curso/temas/icon_tabB.svg')" style="background-color: #f3f3f3 ")
         .row.justify-content-center.mb-5
