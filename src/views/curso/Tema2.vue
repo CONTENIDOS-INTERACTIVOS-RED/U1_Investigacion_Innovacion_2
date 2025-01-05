@@ -249,7 +249,7 @@
           p.mb-0 Los repositorios institucionales, los eventos de divulgación científica y la RedCol, son componentes fundamentales del ecosistema de ciencia, tecnología e innovación, en Colombia. Estas herramientas no solo promueven la preservación y difusión del conocimiento, sino que también potencian la colaboración y la visibilidad internacional de la producción científica nacional. La articulación entre estas iniciativas, asegura un impacto positivo en el desarrollo del país y en la democratización del acceso al conocimiento.
 
 
-    .bg-full-width.bg-color-3.mb-0(data-aos="fade-up")
+    .bg-full-width.bg-color-3.mb-5(data-aos="fade-up")
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-sm-12.col-lg-7
@@ -263,12 +263,173 @@
           .col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/t2/25.png', alt='')
 
-
+    .bg-full-width.border-top.actividad.ctn-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario='cuestionario'/>
 </template>
 
 <script>
 export default {
   name: 'Tema2',
+  data: () => ({
+    cuestionario: {
+      tema: 'Instrumentos de divulgación científica y tecnológica',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Cuál ley estableció el Ministerio de Ciencia, Tecnología e Innovación en Colombia?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ley 1286 de 2009',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Ley 2162 de 2021',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'CONPES 4069 de 2021',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Decreto 1666 de 2021',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente! La Ley 2162 de 2021 dio origen al actual Ministerio de Ciencia, Tecnología e Innovación.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto: '¿Qué componentes integran la plataforma ScienTI?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'SIGP, RedCol y Publindex',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'CvLAC, GrupLAC e InstituLAC',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'APA, Chicago y Vancouver',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'ICONTEC, Scopus y Web of Science',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! ScienTI integra CvLAC, GrupLAC e InstituLAC para gestionar el conocimiento científico.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'La inversión en I+D en Colombia representa actualmente menos del 1% del PIB.',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Bien! Actualmente la inversión es aproximadamente del 0.3% del PIB, con metas de aumentar al 1%.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Cuáles son las áreas prioritarias de investigación en Colombia?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Matemáticas, física y química',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Lingüística, literatura y arte',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Biodiversidad, salud, energías renovables, agroindustria y transformación digital',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Filosofía, sociología y antropología',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente identificación de las áreas estratégicas de investigación!',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto: 'En la séptima edición de APA, ¿qué cambio es destacable?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar el uso de comillas',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Recomendar el uso del pronombre singular "they" como género neutral',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar la sección de referencias',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir el tamaño de fuente a 10',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Excelente observación sobre los cambios en APA!',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Felicidades! Has superado la prueba con éxito.',
+      mensaje_final_reprobado:
+        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
