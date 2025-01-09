@@ -267,7 +267,7 @@
           .col-sm-12.col-lg-7
             h2.mb-4 Viabilidad económica
             p.mb-4 Se invita a leer el documento sobre #[b viabilidad económica], que presenta un análisis detallado de la inversión inicial, los costos proyectados y los ingresos estimados al primer año de operación. Se incluye un estado de resultados proyectado que refleja una utilidad neta de $6,020 USD y un balance general que evidencia una sólida estructura financiera con activos por $31,000 USD. Este análisis permite evaluar la rentabilidad y sostenibilidad del proyecto, proporcionando herramientas claves para la toma de decisiones estratégicas.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/PEND.pdf')" target="_blank")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/investigacion_desarrollo_innovacion.pdf')" target="_blank")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

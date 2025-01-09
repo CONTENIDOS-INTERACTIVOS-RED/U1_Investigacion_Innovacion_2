@@ -255,7 +255,7 @@
           .col-sm-12.col-lg-7
             h2.mb-4 Aspectos técnicos del trabajo de investigación e innovación
             p.mb-4 Se invita a revisar el documento titulado #[b Aspectos técnicos del trabajo de investigación e innovación], el cual aborda temas fundamentales relacionados con la estructura, redacción y aspectos formales de los trabajos académicos. Este material incluye información actualizada sobre las normas técnicas NTC 1486:2022, el manejo de estilos bibliográficos y el uso de herramientas, como los gestores de referencias.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/PEND.pdf')" target="_blank")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/aspectos_tecnicos_trabajo_investigacion_innovacion.pdf')" target="_blank")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
